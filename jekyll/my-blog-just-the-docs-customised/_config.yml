@@ -9,3 +9,9 @@ github_username:  mariodmpereira
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
+
+aux_links:
+  "GitHub":
+    - "//github.com/mariodmpereira/"
+  "Linkedin":
+    - "//linkedin.com/in/mariodmpereira/"
