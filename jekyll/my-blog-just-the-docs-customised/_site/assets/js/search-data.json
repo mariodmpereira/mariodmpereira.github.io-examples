@@ -1,0 +1,92 @@
+{"0": {
+    "doc": "Frontend",
+    "title": "News - Frontend",
+    "content": " ",
+    "url": "http://localhost:8080/news/frontend/#news---frontend",
+    "relUrl": "/news/frontend/#news---frontend"
+  },"1": {
+    "doc": "Frontend",
+    "title": "Frontend",
+    "content": " ",
+    "url": "http://localhost:8080/news/frontend/",
+    "relUrl": "/news/frontend/"
+  },"2": {
+    "doc": "Getting Started",
+    "title": "Articles - Getting Started",
+    "content": " ",
+    "url": "http://localhost:8080/news/articles/getting-started/#articles---getting-started",
+    "relUrl": "/news/articles/getting-started/#articles---getting-started"
+  },"3": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": " ",
+    "url": "http://localhost:8080/news/articles/getting-started/",
+    "relUrl": "/news/articles/getting-started/"
+  },"4": {
+    "doc": "Backend",
+    "title": "News - Backend",
+    "content": " ",
+    "url": "http://localhost:8080/news/backend/#news---backend",
+    "relUrl": "/news/backend/#news---backend"
+  },"5": {
+    "doc": "Backend",
+    "title": "Backend",
+    "content": " ",
+    "url": "http://localhost:8080/news/backend/",
+    "relUrl": "/news/backend/"
+  },"6": {
+    "doc": "Halfway Through",
+    "title": "Articles - Halfway Through",
+    "content": " ",
+    "url": "http://localhost:8080/news/articles/halfway-through/#articles---halfway-through",
+    "relUrl": "/news/articles/halfway-through/#articles---halfway-through"
+  },"7": {
+    "doc": "Halfway Through",
+    "title": "Halfway Through",
+    "content": " ",
+    "url": "http://localhost:8080/news/articles/halfway-through/",
+    "relUrl": "/news/articles/halfway-through/"
+  },"8": {
+    "doc": "Conclusion",
+    "title": "Articles - Conclusion",
+    "content": " ",
+    "url": "http://localhost:8080/news/articles/conclusion/#articles---conclusion",
+    "relUrl": "/news/articles/conclusion/#articles---conclusion"
+  },"9": {
+    "doc": "Conclusion",
+    "title": "Conclusion",
+    "content": " ",
+    "url": "http://localhost:8080/news/articles/conclusion/",
+    "relUrl": "/news/articles/conclusion/"
+  },"10": {
+    "doc": "About",
+    "title": "About",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "http://localhost:8080/about/",
+    "relUrl": "/about/"
+  },"11": {
+    "doc": "Blog",
+    "title": "Blog",
+    "content": " ",
+    "url": "http://localhost:8080/docs/blog/blog.html",
+    "relUrl": "/docs/blog/blog.html"
+  },"12": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://localhost:8080/",
+    "relUrl": "/"
+  },"13": {
+    "doc": "Articles",
+    "title": "Articles",
+    "content": " ",
+    "url": "http://localhost:8080/github-pages/articles/",
+    "relUrl": "/github-pages/articles/"
+  },"14": {
+    "doc": "News",
+    "title": "News",
+    "content": " ",
+    "url": "http://localhost:8080/news/",
+    "relUrl": "/news/"
+  }
+}
