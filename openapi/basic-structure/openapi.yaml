@@ -1,0 +1,65 @@
+openapi: 3.0.3
+info:
+  title: User API
+  description: The official API for interacting with the User Microservice.
+  contact:
+      name: Mário Pereira
+      url: http://www.mariodmpereira.com
+      email: mariodmpereira@gmail.com
+  license:
+      name: MIT
+      url: https://opensource.org/licenses/MIT
+  version: 1.0.0
+tags:
+  - name: User
+paths:
+  /user/{user_id}: # URL + path parameters
+    get: # HTTP Method
+      operationId: getUserById # method name that will be generated on the interface
+      tags:
+        - User # associated with the User tag from the previous section
+      description: Find an user by its id.
+      parameters: ## list of cookies, headers, query and path parameters
+        - name: user_id
+          in: path ## path parameter on this endpoint's URL 
+          required: true ## if the request is sent without user_id, it will fail
+          schema:
+              type: integer
+              format: int64
+              example: 123
+      responses: ## list of possible responses for this endpoint
+        200:
+          description: Successful request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserDto' ## object that is sent as success response
+        404:
+          description: Request resource was not found. ## message sent for a fail response
+components:
+  schemas:
+    UserDto:
+      type: object
+      description: Represents a user that was found on the database.
+      required:
+        - id
+        - name
+        - age
+      properties:
+        id:
+          type: integer
+          nullable: false
+          format: int64
+          example: 123
+        name:
+          type: string
+          nullable: false
+          minLength: 1
+          maxLength: 50
+          example: John Doe
+        age:
+          type: integer
+          nullable: false
+          minLength: 1
+          maxLength: 50
+          example: 35
