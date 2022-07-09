@@ -1,0 +1,4 @@
+com\mariodmpereira\openapi\barebones\OpenapiBarebonesApplication.class
+com\mariodmpereira\openapi\model\UserDto.class
+com\mariodmpereira\openapi\api\UserApi.class
+com\mariodmpereira\openapi\api\ApiUtil.class
