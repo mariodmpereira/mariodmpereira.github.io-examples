@@ -1,4 +1,5 @@
 com\mariodmpereira\openapi\model\UserDto.class
+com\mariodmpereira\openapi\usinggeneratedcode\controller\UserController.class
 com\mariodmpereira\openapi\api\UserApi.class
 com\mariodmpereira\openapi\usinggeneratedcode\OpenapiUsingGeneratedCodeApplication.class
 com\mariodmpereira\openapi\api\ApiUtil.class

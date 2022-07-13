@@ -13,7 +13,7 @@ info:
 tags:
   - name: User
 paths:
-  /user/{user_id}: # URL + path parameters
+  /users/{user_id}: # URL + path parameters
     get: # HTTP Method
       operationId: getUserById # method name that will be generated on the interface
       tags:

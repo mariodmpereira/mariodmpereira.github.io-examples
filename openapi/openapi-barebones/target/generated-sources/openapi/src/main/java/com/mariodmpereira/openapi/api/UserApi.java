@@ -29,13 +29,13 @@ import java.util.Map;
 import java.util.Optional;
 import javax.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-07-09T01:02:31.527267600+01:00[Europe/Lisbon]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-07-13T20:44:05.767096800+01:00[Europe/Lisbon]")
 @Validated
 @Tag(name = "User", description = "the User API")
 public interface UserApi {
 
     /**
-     * GET /user/{user_id}
+     * GET /users/{user_id}
      * Find an user by its id.
      *
      * @param userId  (required)
@@ -54,7 +54,7 @@ public interface UserApi {
     )
     @RequestMapping(
         method = RequestMethod.GET,
-        value = "/user/{user_id}",
+        value = "/users/{user_id}",
         produces = { "application/json" }
     )
     ResponseEntity<UserDto> getUserById(

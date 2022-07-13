@@ -20,7 +20,7 @@ import javax.annotation.Generated;
  */
 
 @Schema(name = "UserDto", description = "Represents a user that was found on the database.")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-07-13T20:21:20.456085+01:00[Europe/Lisbon]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-07-13T20:46:20.323189+01:00[Europe/Lisbon]")
 public class UserDto implements Serializable {
 
   private static final long serialVersionUID = 1L;

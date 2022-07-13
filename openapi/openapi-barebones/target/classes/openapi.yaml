@@ -3,17 +3,17 @@ info:
   title: User API
   description: The official API for interacting with the User Microservice.
   contact:
-      name: Mário Pereira
-      url: http://www.mariodmpereira.com
-      email: mariodmpereira@gmail.com
+    name: Mário Pereira
+    url: http://www.mariodmpereira.com
+    email: mariodmpereira@gmail.com
   license:
-      name: MIT
-      url: https://opensource.org/licenses/MIT
+    name: MIT
+    url: https://opensource.org/licenses/MIT
   version: 1.0.0
 tags:
   - name: User
 paths:
-  /user/{user_id}: # URL + path parameters
+  /users/{user_id}: # URL + path parameters
     get: # HTTP Method
       operationId: getUserById # method name that will be generated on the interface
       tags:
@@ -21,12 +21,12 @@ paths:
       description: Find an user by its id.
       parameters: ## list of cookies, headers, query and path parameters
         - name: user_id
-          in: path ## path parameter on this endpoint's URL 
-          required: true ## if the request is sent without user_id, it will fail
+          in: path
+          required: true
           schema:
-              type: integer
-              format: int64
-              example: 123
+            type: integer
+            format: int64
+            example: 123
       responses: ## list of possible responses for this endpoint
         200:
           description: Successful request.
