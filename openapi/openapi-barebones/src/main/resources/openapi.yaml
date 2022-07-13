@@ -21,9 +21,8 @@ paths:
       description: Find an user by its id.
       parameters: ## list of cookies, headers, query and path parameters
         - name: user_id
-          in: path ## path parameter on this endpoint's URL 
-          required: true ## if the request is sent without user_id, it will fail
-          $ref:
+          in: path
+          required: true
           schema:
             type: integer
             format: int64
